@@ -6,7 +6,7 @@ public class Main {
         System.out.print("Введите размер массива: ");
         int size = scanner.nextInt();
         int[] arr = new int[size];
-        System.out.print("Введите элементе массива: ");
+        System.out.print("Введите элементы массива: ");
         for (int i = 0; i < size; i++) {
             arr[i] = scanner.nextInt();
         }
